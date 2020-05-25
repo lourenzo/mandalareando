@@ -23,6 +23,14 @@ const config = {
         test: /\.pug$/,
         use: ['pug-loader'],
       },
+      {
+        test: /\.styl$/,
+        use: [
+          'style-loader',
+          'css-loader',
+          'stylus-loader',
+        ],
+      },
     ],
   },
 };
