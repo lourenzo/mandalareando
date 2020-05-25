@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Desenhar Mandala</title>
+</head>
+<body>
+  <h1>Desenhar Mandala</h1>
+
+  <div style="position: relative; cursor: pointer;">
+    <div
+    style="position:absolute;top:10px;left:10px;width:10px;height:10px;background:green;"
+    id="green"
+    onclick="color(this)"></div>
+    <div
+    style="position:absolute;top:10px;left:22px;width:10px;height:10px;background:blue;"
+    id="blue"
+    onclick="color(this)"></div>
+    <div
+    style="position:absolute;top:10px;left:34px;width:10px;height:10px;background:red;"
+    id="red"
+    onclick="color(this)"></div>
+    <div
+    style="position:absolute;top:10px;left:46px;width:9px;height:9px;background:white; border: solid 1px #ccc;"
+    id="white"
+    onclick="color(this)"></div>
+    <div
+    style="position:absolute;top:25px;left:10px;width:10px;height:10px;background:yellow;"
+    id="yellow"
+    onclick="color(this)"></div>
+    <div
+    style="position:absolute;top:25px;left:22px;width:10px;height:10px;background:orange;"
+    id="orange"
+    onclick="color(this)"></div>
+    <div
+    style="position:absolute;top:25px;left:34px;width:10px;height:10px;background:black;"
+    id="black"
+    onclick="color(this)"></div>
+    <div
+    style="position:absolute;top:25px;left:46px;width:10px;height:10px;background:cyan;"
+    id="cyan"
+    onclick="color(this)"></div>
+    <div
+    style="position:absolute;top:35px;left:10px;width:60px;height:20px;"
+    onclick="init()">[x] erase</div>
+  </div>
+  <canvas id="canvas" width="700" height="700"></canvas>
+  <script src="mandala.js"></script>
+</body>
+</html>
