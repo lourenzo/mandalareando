@@ -16,8 +16,23 @@ npm install --save-dev webpack webpack-cli webpack-dev-server clean-webpack-plug
 npm i -D pug pug-loader html-webpack-plugin
 
 // add stylus support
+// @see https://gist.github.com/mburakerman/e5e8328dc88085396adbff3804a1fb51
+npm install style-loader css-loader stylus-loader stylus --save-dev
 
-
+configure:
+```js
+module: {
+    rules: [
+      {
+        test: /\.styl$/,
+        use: [
+          'style-loader',
+          'css-loader',
+          'stylus-loader',
+        ],
+      },
+    ],
+```
 
 ---
 

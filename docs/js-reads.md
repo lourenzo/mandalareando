@@ -14,6 +14,7 @@
 
 * pug https://itnext.io/webpack-4-write-pug-templates-c24e5ea07317
 * stylus https://github.com/shama/stylus-loader
+* https://gist.github.com/mburakerman/e5e8328dc88085396adbff3804a1fb51
 * https://stackoverflow.com/questions/44439930
 
 ## Canvas
